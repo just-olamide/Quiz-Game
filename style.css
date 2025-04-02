@@ -10,3 +10,24 @@
     background-color: antiquewhite;
     padding: 20px;
 }
+#quiz-container h2{
+margin-bottom: 10px;
+}
+#score{
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+#timer{
+    margin-bottom: 5px;
+}
+#submit{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+}
+#btn{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    margin-top: 10px;
+}

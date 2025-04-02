@@ -5,10 +5,10 @@ const questions = [
 
 ];
 
-let currentQuestionIndex = 0; // Which question we're on
-let score = 0; // Player's score
-let timer; // Holds the timer
-let timeLeft = 10; // Time per
+let currentQuestionIndex = 0; 
+let score = 0; 
+let timer; 
+let timeLeft = 10; 
 
 function loadQuestion() {
   const currentQuestion = questions[currentQuestionIndex];
@@ -59,15 +59,15 @@ function checkAnswer() {
 function showResults() {
   document.getElementById("quiz-container").style.display = "none";
   document.getElementById("results").style.display = "block";
-  document.getElementById("final-score").textContent = Your `Score: ${score}/${questions.length};`
+  document.getElementById("final-score").textContent = `Your Score: ${score}/${questions.length};`
 }
 function startTimer() {
   timeLeft = 10;
-  document.getElementById("timer").textContent = Time `left: ${timeLeft}s;`
+  document.getElementById("timer").textContent = `Time left: ${timeLeft}s;`
 
   timer = setInterval(() => {
       timeLeft--;
-      document.getElementById("timer").textContent = Time `left: ${timeLeft}s;`
+      document.getElementById("timer").textContent = `Time left: ${timeLeft}s;`
 
       if (timeLeft === 0) {
           clearInterval(timer);

@@ -3,16 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
-    background-color: blueviolet;
-}
-.Quiz{
-    background-color: #ffffff;
-    margin: 50px auto;
+.container{
+    margin: 50px;
+    border: 2px solid black;
     justify-items: center;
-    width: 40%;
+    background-color: antiquewhite;
     padding: 20px;
-}
-#btnn{
-    width: 90%;
 }
